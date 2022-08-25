@@ -7,7 +7,7 @@ import time
 MAX_PIXELS = 16
 
 # How long should we shine the pixels (in seconds)?
-SHINE_TIMER = 12
+SHINE_TIMER = 43200
 
 # How bright should the LEDs be?
 BRIGHTNESS = 1.0
@@ -19,7 +19,7 @@ DARK_INDICATOR_PIN = 21  # Physical pin 40
 LED_STRIP_OUTPUT_PIN = board.D18
 
 # Colors
-WHITE = (255, 255, 255)
+WHITE = (8, 8, 8)
 OFF = (0, 0, 0)
 
 pixels = neopixel.NeoPixel(LED_STRIP_OUTPUT_PIN, MAX_PIXELS, brightness=BRIGHTNESS)
@@ -34,7 +34,6 @@ GPIO.setup(DARK_INDICATOR_PIN, GPIO.IN)
 
 while True:
     try:
-        # IF it is nighttime, switch on the DARK indicator
         if GPIO.input(DARK_INDICATOR_PIN):
             # print("Room DARK")
             pixels.fill(WHITE)
