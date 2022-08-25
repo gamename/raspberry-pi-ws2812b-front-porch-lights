@@ -13,8 +13,8 @@ SHINE_TIMER = 12
 BRIGHTNESS = 1.0
 
 # What GPIO pin is associated with a condition?
-MOTION_DETECT_INPUT_PIN = 20 # Physical pin 38
-DARK_INDICATOR_PIN = 21 # Physical pin 40
+MOTION_DETECT_INPUT_PIN = 20  # Physical pin 38
+DARK_INDICATOR_PIN = 21  # Physical pin 40
 
 # Use the board internal definition for this
 LED_STRIP_OUTPUT_PIN = board.D18
@@ -23,9 +23,7 @@ LED_STRIP_OUTPUT_PIN = board.D18
 WHITE = (255, 255, 255)
 OFF = (0, 0, 0)
 
-
-pixels = neopixel.NeoPixel(LED_STRIP_OUTPUT_PIN, MAX_PIXELS,
-                          brightness=BRIGHTNESS)
+pixels = neopixel.NeoPixel(LED_STRIP_OUTPUT_PIN, MAX_PIXELS, brightness=BRIGHTNESS)
 
 GPIO.setwarnings(False)
 
