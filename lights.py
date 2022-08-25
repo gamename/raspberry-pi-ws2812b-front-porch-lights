@@ -42,14 +42,14 @@ while True:
     try:
         # IF it is nighttime, switch on the DARK indicator
         if GPIO.input(DARK_INDICATOR_PIN):
-            print("Room DARK")
+            # print("Room DARK")
             if GPIO.input(MOTION_DETECT_INPUT_PIN):
-                print("Motion detected!!")
+                # print("Motion detected!!")
                 pixels.fill(WHITE)
                 time.sleep(SHINE_TIMER)
                 pixels.fill(OFF)
             else:
-                print("DARK but no motion.")
+                # print("DARK but no motion.")
                 pass
         else:
             # print("room NOT dark")
