@@ -6,9 +6,6 @@ import time
 # How many pixels are in the WS2812b strip?
 MAX_PIXELS = 16
 
-# How long should we shine the pixels (in seconds)?
-SHINE_TIMER = 43200
-
 # How bright should the LEDs be?
 BRIGHTNESS = 1.0
 
