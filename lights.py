@@ -35,13 +35,9 @@ GPIO.setup(DARK_INDICATOR_PIN, GPIO.IN)
 while True:
     try:
         if GPIO.input(DARK_INDICATOR_PIN):
-            # print("Room DARK")
             pixels.fill(WHITE)
-            time.sleep(SHINE_TIMER)
-            pixels.fill(OFF)
         else:
-            # print("room NOT dark")
-            pass
+            pixels.fill(OFF)
     except KeyboardInterrupt:
         pixels.fill(OFF)
         exit()
