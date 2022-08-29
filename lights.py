@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 import time
 
 # How many pixels are in the WS2812b strip?
-MAX_PIXELS = 16
+MAX_PIXELS = 506
 
 # How bright should the LEDs be?
 BRIGHTNESS = 1.0
