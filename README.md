@@ -2,14 +2,18 @@
 # Table of Contents
 
 # Overview
-This is a fairly simple implementation of a raspberry pi using a light sensor to control an LED strip. The LED strip is for porch lights on my townhouse.
+This is a fairly simple implementation of a raspberry pi using a light sensor to control an LED strip. The LED strip is for porch lights 
+on my townhouse.
 
 # Technical Description
-This uses a Raspberry Pi 3b to control a WS2812b LED strip. The LED strip is strung along the top edge of the porch. Each LED strip
-is enclosed in an aluminum trough, or strip, and covered with a plastic diffuser. At each end is a power connection for a 5v power
-supply and ground.  At one end is a separate 5v power connection, a ground connection, and a control connection which are all
-attached to the Raspberry Pi. The separate power supply is needed because the there are approximately 510 pixel lights to be driven in my case.
-The power supply, a power strip, and the Raspberry Pi are all housed in a junction box.  
+This uses a Raspberry Pi (RPi) 3b to control a WS2812b LED strip. The LED strip is strung along the top edge of the porch. Each LED strip
+is enclosed in an aluminum trough, or strip, and covered with a plastic diffuser. 
+
+Even though the LED strip is connected to the RPi for power and control, it cannot supply enough amperage to drive the whole strip. So,
+there is an additional external power supply connected at both ends. 
+
+The external power supply, a power strip, and the RPi are all housed in a junction box. The light sensor is connected to the RPi too,
+but is housed externally in a small hobby box. 
 
 # High Level Diagram
 
