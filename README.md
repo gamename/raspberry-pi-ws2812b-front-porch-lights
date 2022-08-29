@@ -40,13 +40,13 @@ tape measure<br>
 # Assembly Notes
 
 # FAQ
-Q. Isn't a Raspberry Pi overkill for this application?
+Q. Isn't a Raspberry Pi overkill for this application?<br>
 A. Yes and no.  It is possible to do this sort of thing with a cheaper ESP32 device, that's true.  But on the other hand, 
 the Raspberry Pi has a full-featured operating system. That allows me to SSH into it and make changes very easily. In addition,
 I'm considering making this whole configuration an Internet of Things (IoT) application with controls on Amazon Web Services (AWS).
 Doing that will require something more powerful - like a Raspberry Pi. 
 <br><br>
-Q. How long did it take to put this all together?
-A. About 2 days.  It took a while to hang all the 
+Q. How long did it take to put this all together?<br>
+A. About 2 days.  It took a while to hang all the LED strip lights 
 <br><br>
 
