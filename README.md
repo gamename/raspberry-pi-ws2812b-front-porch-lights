@@ -8,8 +8,8 @@ This is a fairly simple implementation of a raspberry pi using a light sensor to
 This uses a Raspberry Pi 3b to control a WS2812b LED strip. The LED strip is strung along the top edge of the porch. Each LED strip
 is enclosed in an aluminum trough, or strip, and covered with a plastic diffuser. At each end is a power connection for a 5v power
 supply and ground.  At one end is a separate 5v power connection, a ground connection, and a control connection which are all
-attached to the Raspberry Pi. The separate power supply is needed because the there are approximately 510 pixel lights to be driven.
-THe power supply, a power strip, and the Raspberry Pi are all housed in a junction box.  
+attached to the Raspberry Pi. The separate power supply is needed because the there are approximately 510 pixel lights to be driven in my case.
+The power supply, a power strip, and the Raspberry Pi are all housed in a junction box.  
 
 # High Level Diagram
 
@@ -39,6 +39,9 @@ drill with phillips head drill bit <br>
 ladder<br>
 tape measure<br>
 [cable ties](https://a.co/d/6m9v6Om)<br>
+[cable hiders](https://a.co/d/gkcMCfV) (wall)
+[cable hiders](https://a.co/d/eZ0RxNR) (floor)
+[casters](https://a.co/d/86DZQPY) (for junction box)
 
 
 # Assembly Notes
@@ -51,6 +54,6 @@ I'm considering making this whole configuration an Internet of Things (IoT) appl
 Doing that will require something more powerful - like a Raspberry Pi. 
 <br><br>
 Q. How long did it take to put this all together?<br>
-A. About 2 days.  It took a while to hang all the LED strip lights 
+A. At least 1 day.  It took a while to hang all the LED strip lights 
 <br><br>
 
