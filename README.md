@@ -7,12 +7,12 @@ on my townhouse.
 
 # Technical Description
 This uses a Raspberry Pi (RPi) 3b to control a WS2812b LED strip. The LED strip is strung along the top edge of the porch. Each LED strip
-is enclosed in an aluminum trough, or strip, and covered with a plastic diffuser. 
+is enclosed in an aluminum rail and covered with a plastic diffuser (see "light rails" in parts list below). 
 
 Even though the LED strip is connected to the RPi for power and control, it cannot supply enough amperage to drive the whole strip. So,
 there is an additional external power supply connected at both ends. 
 
-The external power supply, a power strip, and the RPi are all housed in a junction box. The light sensor is connected to the RPi too,
+The external power supply, a surge protector, and the RPi are all housed in a junction box. The light sensor is connected to the RPi too,
 but is housed externally in a small hobby box. 
 
 # High Level Diagram
