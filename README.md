@@ -54,8 +54,8 @@ but is housed externally in a small hobby box.
 
 <br><br>
 # Assembly Notes
-1. The LED strip length needed was about 28 feet.  So I had to join 2 strips together. In my case, I simply soldered the 2 strips together.  But 
-I added the "strip joiners" (above in parts list) in case someone wanted to avoid soldering.<br>
+1. The LED strip length needed was about 28 feet.  So I had to join 2 strips together. In my case, I simply soldered the 2 strips together
+[using this technique](https://youtu.be/RFv19s15RuM).  But I added the "strip joiners" (above in parts list) in case someone wanted to avoid soldering.<br>
 2. I had to cut the power cord on the surge protector, run it into the junction box via a small hole, then reattach it afterwards.<br>
 
 <br><br>
