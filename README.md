@@ -1,10 +1,12 @@
 
 # Table of Contents
 
+<br><br>
 # Overview
 This is a fairly simple implementation of a raspberry pi using a light sensor to control an LED strip. The LED strip is for porch lights 
 on my townhouse.
 
+<br><br>
 # Technical Description
 This uses a Raspberry Pi (RPi) 3b to control a WS2812b LED strip. The LED strip is strung along the top edge of the porch. Each LED strip
 is enclosed in an aluminum rail and covered with a plastic diffuser (see "light rails" in parts list below). 
@@ -15,10 +17,13 @@ there is an additional external power supply connected at both ends.
 The external power supply, a surge protector, and the RPi are all housed in a junction box. The light sensor is connected to the RPi too,
 but is housed externally in a small hobby box. 
 
+<br><br>
 # High Level Diagram
 
+<br><br>
 # Pictures 
 
+<br><br>
 # Parts List
 1. [Light detector](https://a.co/d/iatWxzP)<br>
 2. [junction box](https://www.amazon.com/dp/B07FFMW98K?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_Q53R1K17GV35AD7ETD8T)<br>
@@ -46,10 +51,14 @@ but is housed externally in a small hobby box.
 24. [cable hiders](https://a.co/d/gkcMCfV) (wall)
 25. [cable hiders](https://a.co/d/eZ0RxNR) (floor)
 26. [casters](https://a.co/d/86DZQPY) (for junction box)
- 
 
+<br><br>
 # Assembly Notes
+1. The LED strip length needed was about 28 feet.  So I had to join 2 strips together. In my case, I simply soldered the 2 strips together.  But 
+I added the "strip joiners" (above in parts list) in case someone wanted to avoid soldering.<br>
+2. I had to cut the power cord on the surge protector, run it into the junction box via a small hole, then reattach it afterwards.<br>
 
+<br><br>
 # FAQ
 Q. Isn't a Raspberry Pi overkill for this application?<br>
 A. Yes and no.  It is possible to do this sort of thing with a cheaper ESP32 device, that's true.  But on the other hand, 
