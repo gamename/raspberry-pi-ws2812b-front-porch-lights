@@ -41,7 +41,7 @@ but is housed externally in a small hobby box.
 9. [modular power connectors](https://www.amazon.com/dp/B07RW6XVWZ?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_FFTEP0FKJS06ZBFZYE9B)<br>
 10. [crimping tool](https://www.amazon.com/dp/B07GFLWKTT?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_CJ3GNW5Q23350F62M5Q7)<br>
 11. [cable glands](https://a.co/d/7p3MsaF)<br>
-12. [3 conductor wire](https://www.amazon.com/dp/B06Y4716V7?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_BY7KKMJT11VS7TR2KW9B)<br>
+12. [3 conductor wire](https://a.co/d/edxlVFO)
 13. [shrink tubing wire connectors](https://www.amazon.com/dp/B09FLZQQ95?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_VAFF6WAG78XBAE2WKR9X)<br>
 14. [usb to mini usb connector](https://www.amazon.com/dp/B004GETLY2?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_S4YZF2V6R8KAVAPN4BF1)<br>
 15. [ws2812b led strips](https://www.amazon.com/dp/B01CDTEID0?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_XNF847VSW59MR645S7A1)<br>
