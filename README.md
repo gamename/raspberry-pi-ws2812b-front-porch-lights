@@ -24,7 +24,7 @@ but is housed externally in a small hobby box.
 
 <br><br>
 # High Level Diagram
-
+![](.README_images/high-level-diagram.png)
 <br><br>
 # Pictures
 
