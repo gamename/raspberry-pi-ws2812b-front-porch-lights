@@ -1,6 +1,11 @@
-
 # Table of Contents
-
+  - [Overview](#overview)
+  - [Technical Description](#technical-description)
+  - [High Level Diagram](#high-level-diagram)
+  - [Pictures ](#pictures-)
+  - [Parts List](#parts-list)
+  - [Assembly Notes](#assembly-notes)
+  - [FAQ](#faq)
 <br><br>
 # Overview
 This is a fairly simple implementation of a raspberry pi using a light sensor to control an LED strip. The LED strip is for porch lights 
