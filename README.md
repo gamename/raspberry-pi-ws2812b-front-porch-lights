@@ -2,7 +2,7 @@
   - [Overview](#overview)
   - [Technical Description](#technical-description)
   - [High Level Diagram](#high-level-diagram)
-  - [Pictures ](#pictures-)
+  - [Pictures](#pictures)
   - [Parts List](#parts-list)
   - [Assembly Notes](#assembly-notes)
   - [FAQ](#faq)
@@ -26,7 +26,7 @@ but is housed externally in a small hobby box.
 # High Level Diagram
 
 <br><br>
-# Pictures 
+# Pictures
 
 <br><br>
 # Parts List
