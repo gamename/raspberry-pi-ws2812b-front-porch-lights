@@ -13,7 +13,7 @@ import time
 MAX_PIXELS = 506
 
 # How bright should the LEDs be?
-BRIGHTNESS = 1.0
+BRIGHTNESS = 0.2
 
 # What GPIO pin is associated with a condition?
 DARK_INDICATOR_PIN = 21  # Physical pin 40
@@ -22,7 +22,7 @@ DARK_INDICATOR_PIN = 21  # Physical pin 40
 LED_STRIP_OUTPUT_PIN = board.D18
 
 # Colors
-WHITE = (8, 8, 8)
+WHITE = (255, 255, 255)
 OFF = (0, 0, 0)
 
 pixels = neopixel.NeoPixel(LED_STRIP_OUTPUT_PIN, MAX_PIXELS, brightness=BRIGHTNESS)
