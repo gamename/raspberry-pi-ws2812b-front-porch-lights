@@ -54,8 +54,7 @@ but is housed externally in a small hobby box.
 22. tape measure<br>
 23. [cable ties](https://a.co/d/6m9v6Om)<br>
 24. [cable hiders](https://a.co/d/gkcMCfV) (wall)
-25. [cable hiders](https://a.co/d/eZ0RxNR) (floor)
-26. [casters](https://a.co/d/86DZQPY) (for junction box)
+25. [casters](https://a.co/d/86DZQPY) (for junction box)
 
 <br><br>
 # Assembly Notes
