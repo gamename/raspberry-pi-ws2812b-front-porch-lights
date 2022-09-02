@@ -7,12 +7,16 @@ has about 3 meters of wire to connect to the power supply.
 import board
 import neopixel
 import RPi.GPIO as GPIO
+import time
 
 # How many pixels are in the WS2812b strip?
 MAX_PIXELS = 506
 
 # How bright should the LEDs be?
 BRIGHTNESS = 0.2
+
+# How long should we shine the LEDs?
+SHINE_TIMER = 120
 
 # What GPIO pin is associated with a condition?
 DARK_INDICATOR_PIN = 21  # Physical pin 40
@@ -38,6 +42,9 @@ while True:
     try:
         if GPIO.input(DARK_INDICATOR_PIN):
             pixels.fill(WHITE)
+            # Put this here because there tends to be a flickering effect at twilight and sunrise.
+            # So, make the strip stay on continuously for a time while the light growing or receding
+            time.sleep(SHINE_TIMER)
         else:
             pixels.fill(OFF)
     except KeyboardInterrupt:
