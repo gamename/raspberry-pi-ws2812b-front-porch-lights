@@ -13,7 +13,7 @@ import time
 MAX_PIXELS = 506
 
 # How bright should the LEDs be?
-BRIGHTNESS = 0.2
+BRIGHTNESS = 0.4
 
 # How long should we shine the LEDs?
 SHINE_TIMER = 120
