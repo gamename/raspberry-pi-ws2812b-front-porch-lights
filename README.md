@@ -82,5 +82,13 @@ A. At least 1 day.  It took a while to hang all the LED strip lights
 Q. Why didn't you inject power periodically in the strip instead of just at both ends?<br>
 A. I miscalculated.  I had thought this design would still enable me to use the strip up to its full brightness. But
 it didn't work. I could only get about 50% of the brightness possible.  Luckily, through trial and error, I found that
-I only needed about 20% to adequately illuminate the porch.
+I only needed about 10% to adequately illuminate the porch.
+<br><br>
+Q. Now that you've gone to the trouble of using a Raspberry Pi, how do you plan to use it?<br>
+A. I'm fond of using the Amazon AWS IoT Core service which requires an on-board Python (or NodeJS) script. Once it is defined as an Amazon IoT "thing", there are lots of options for further development. Here are some possible scenarios:<br>
+    1. build my own Android app which interfaces with AWS Lambda functions to remotely animate the lights.<br>
+    2. write a telemetry-gathering script to track the on-board temperature of the RPi and send me text alerts if it gets excessively hot.<br>
+    3. write an AWS lambda function that will figure out the sunrise/sunset times and tell the strip to turn on or off accordingly.<br>
+    4. write an AWS lambda script that will set celebratory animation on specific days like Christmas, 4th of July, Halloween, birthdays, etc.<br>
+<br><br>
 
