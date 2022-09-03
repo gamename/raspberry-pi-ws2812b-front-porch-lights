@@ -31,6 +31,9 @@ but is housed externally in a small hobby box.
 ![](.README_images/doorstep-wire-hider-to-vert-hider.png)
 ![](.README_images/view-of-ws2812b-installed.png)
 ![](.README_images/end-connection.png)
+![](.README_images/porch-nighttime.png)
+![](.README_images/porch-nighttime-external-view.png)
+![](.README_images/porch-nighttime-external-view-from-street.png)
 <br><br>
 # Parts List
 1. [Light detector](https://a.co/d/iatWxzP)<br>
