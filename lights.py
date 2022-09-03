@@ -16,7 +16,7 @@ MAX_PIXELS = 506
 BRIGHTNESS = 0.4
 
 # How long should we shine the LEDs?
-SHINE_TIMER = 120
+SHINE_TIMER = 3600
 
 # What GPIO pin is associated with a condition?
 DARK_INDICATOR_PIN = 21  # Physical pin 40
