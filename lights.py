@@ -13,9 +13,9 @@ import time
 MAX_PIXELS = 506
 
 # How bright should the LEDs be?
-BRIGHTNESS = 0.4
+BRIGHTNESS = 0.2
 
-# How long should we shine the LEDs?
+# How long (in seconds) should we shine the LEDs?
 SHINE_TIMER = 3600
 
 # What GPIO pin is associated with a condition?
