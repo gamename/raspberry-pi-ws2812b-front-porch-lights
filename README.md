@@ -79,4 +79,8 @@ Doing that will require something more powerful - like a Raspberry Pi.
 Q. How long did it take to put this all together?<br>
 A. At least 1 day.  It took a while to hang all the LED strip lights 
 <br><br>
+Q. Why didn't you inject power periodically in the strip instead of just at both ends?<br>
+A. I miscalculated.  I had thought this design would still enable me to use the strip up to its full brightness. But
+it didn't work. I could only get about 50% of the brightness possible.  Luckily, through trial and error, I found that
+I only needed about 20% to adequately illuminate the porch.
 
