@@ -67,6 +67,29 @@ but is housed externally in a small hobby box.
 1. The LED strip length needed was about 28 feet.  So I had to join 2 strips together. In my case, I simply soldered the 2 strips together
 [using this technique](https://youtu.be/RFv19s15RuM).  But I added the "strip joiners" (above in parts list) in case someone wanted to avoid soldering.<br>
 2. I had to cut the power cord on the surge protector, run it into the junction box via a small hole, then reattach it afterwards.<br>
+3. You guarantee that the `lights.py` script is run at startup by adding the following to your `/etc/rc.local` file:
+```bash
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+# Print the IP address
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+sudo python3 /home/tennis/raspberry-pi-ws2812b-front-porch-lights/lights.py
+exit 0
+```
 
 <br><br>
 # FAQ
@@ -88,7 +111,6 @@ Q. Now that you've gone to the trouble of using a Raspberry Pi, how do you plan 
 A. I'm fond of using the Amazon AWS IoT Core service which requires an on-board Python (or NodeJS) script. Once it is defined as an Amazon IoT "thing", there are lots of options for further development. Here are some possible scenarios:<br>
 1. build my own Android app which interfaces with AWS Lambda functions to remotely animate the lights.<br>
 2. write a telemetry-gathering script to track the on-board temperature of the RPi and send me text alerts if it gets excessively hot.<br>
-3. write an AWS lambda function that will figure out the sunrise/sunset times and tell the strip to turn on or off accordingly.<br>
-4. write an AWS lambda script that will set celebratory animation on specific days like Christmas, 4th of July, Halloween, birthdays, etc.<br>
+3. write an AWS lambda script that will set celebratory animation on specific days like Christmas, 4th of July, Halloween, birthdays, etc.<br>
 <br><br>
 
