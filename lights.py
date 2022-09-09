@@ -43,7 +43,7 @@ while True:
         if GPIO.input(DARK_INDICATOR_PIN):
             pixels.fill(WHITE)
             # Put this here because there tends to be a flickering effect at twilight and sunrise.
-            # So, make the strip stay on continuously for a time while the light growing or receding
+            # So, make the strip stay on continuously for a time while the light is growing or receding
             time.sleep(SHINE_TIMER)
         else:
             pixels.fill(OFF)
