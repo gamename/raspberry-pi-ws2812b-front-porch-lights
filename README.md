@@ -88,7 +88,6 @@ Q. Now that you've gone to the trouble of using a Raspberry Pi, how do you plan 
 A. I'm fond of using the Amazon AWS IoT Core service which requires an on-board Python (or NodeJS) script. Once it is defined as an Amazon IoT "thing", there are lots of options for further development. Here are some possible scenarios:<br>
 1. build my own Android app which interfaces with AWS Lambda functions to remotely animate the lights.<br>
 2. write a telemetry-gathering script to track the on-board temperature of the RPi and send me text alerts if it gets excessively hot.<br>
-3. write an AWS lambda function that will figure out the sunrise/sunset times and tell the strip to turn on or off accordingly.<br>
-4. write an AWS lambda script that will set celebratory animation on specific days like Christmas, 4th of July, Halloween, birthdays, etc.<br>
+3. write an AWS lambda script that will set celebratory animation on specific days like Christmas, 4th of July, Halloween, birthdays, etc.<br>
 <br><br>
 
