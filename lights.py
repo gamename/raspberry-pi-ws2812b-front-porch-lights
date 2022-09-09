@@ -22,7 +22,7 @@ SHINE_TIMER = 3600
 DARK_INDICATOR_PIN = 21  # Physical pin 40
 
 # Use the board internal definition for this
-LED_STRIP_OUTPUT_PIN = board.D18
+LED_STRIP_OUTPUT_PIN = board.D18  # Physical pin 12
 
 # Colors
 WHITE = (255, 255, 255)
