@@ -12,7 +12,7 @@ pixel_num = 24
 
 pixels = neopixel.NeoPixel(pixel_pin, pixel_num, brightness=0.2, auto_write=False)
 solid = Solid(pixels, color=ORANGE)
-animations = AnimationSequence(solid, auto_clear=True)
+animations = AnimationSequence(solid)
 
 while True:
     animations.animate()
