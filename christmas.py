@@ -14,8 +14,6 @@ pixpin = board.D18
 # Pin where NeoPixels are connected
 strip = neopixel.NeoPixel(pixpin, numpix, brightness=1, auto_write=False)
 colors = [
-    [232, 100, 255],  # Purple
-    [200, 200, 20],  # Yellow
     [30, 200, 200],  # Blue
     [255, 255, 255],  # White
     [0, 255, 0],  # Green
