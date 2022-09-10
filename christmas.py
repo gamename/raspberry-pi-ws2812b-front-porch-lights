@@ -60,4 +60,5 @@ while True:
         time.sleep(0.1)
     except KeyboardInterrupt:
         strip.fill(OFF)
+        strip.show()
         exit()
