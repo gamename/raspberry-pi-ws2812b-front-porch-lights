@@ -33,7 +33,7 @@ for i in range(num_flashes):
     flash_len = random.randint(min_len, max_len)
     flashing.append([pix, colors[col], flash_len, 0, 1])
 
-OFF = (0,0,0)
+OFF = (0, 0, 0)
 strip.fill(OFF)
 
 while True:
