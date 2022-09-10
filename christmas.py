@@ -38,8 +38,8 @@ for i in range(num_flashes):
 OFF = (0,0,0)
 strip.fill(OFF)
 
-try:
-    while True:
+while True:
+    try:
         strip.show()
         for i in range(num_flashes):
             # print(flashing[i])
@@ -58,6 +58,6 @@ try:
                 flashing[i] = [pix, colors[col], flash_len, 0, 1]
             flashing[i][3] = flashing[i][3] + flashing[i][4]
         time.sleep(0.1)
-except KeyboardInterrupt:
-    strip.fill(OFF)
-    exit()
+    except KeyboardInterrupt:
+        strip.fill(OFF)
+        exit()
