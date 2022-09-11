@@ -9,7 +9,7 @@ pixel_num = 24
 ORANGE =(253, 166, 0)
 OFF = (0, 0, 0)
 
-pixels = neopixel.NeoPixel(pixel_pin, pixel_num, brightness=0.2, auto_write=False)
+pixels = neopixel.NeoPixel(pixel_pin, pixel_num, brightness=0.2, auto_write=True
 
 pixels.fill(OFF)
 try:
