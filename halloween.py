@@ -11,6 +11,7 @@ OFF = (0, 0, 0)
 
 pixels = neopixel.NeoPixel(pixel_pin, pixel_num, brightness=0.2, auto_write=False)
 
+pixels.fill(OFF)
 try:
     while True:
         pixels.fill(ORANGE)
