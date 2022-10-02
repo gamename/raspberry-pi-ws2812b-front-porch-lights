@@ -32,7 +32,7 @@ pixels = neopixel.NeoPixel(LED_STRIP_OUTPUT_PIN, MAX_PIXELS, brightness=BRIGHTNE
 
 GPIO.setwarnings(False)
 
-# Refer pins by their sequence number on the strip
+# Refer to pins by their Broadcom numbers
 GPIO.setmode(GPIO.BCM)
 
 # Configure the light sensor
