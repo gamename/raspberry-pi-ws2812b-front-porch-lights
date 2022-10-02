@@ -1,8 +1,8 @@
 """
-This controls a long (8.4 meter) ws2812b strip using a Raspberry Pi. There are a total of 506 pixels in the strip.
-In addition to the power supplied by the RPi, there is an external power supply. The external power supply is
-connected at both ends of the strip. It supplies 5 Volts at a maximum of 40 amps. Each connection to the strip
-has about 3 meters of wire to connect to the power supply.
+This controls a long (8.4 meter) ws2812b strip using a Raspberry Pi. There are a total of 506 pixels
+ in the strip. In addition to the power supplied by the RPi, there is an external power supply. The
+ external power supply is connected at both ends of the strip. It supplies 5 Volts at a maximum of
+ 40 amps. Each connection to the strip has about 3 meters of wire to connect to the power supply.
 """
 import board
 import neopixel
@@ -43,7 +43,8 @@ while True:
         if GPIO.input(DARK_INDICATOR_PIN):
             pixels.fill(WHITE)
             # Put this here because there tends to be a flickering effect at twilight and sunrise.
-            # So, make the strip stay on continuously for a time while the light is growing or receding
+            # So, make the strip stay on continuously for a time while the light is growing or
+            # receding
             time.sleep(SHINE_TIMER)
         else:
             pixels.fill(OFF)
