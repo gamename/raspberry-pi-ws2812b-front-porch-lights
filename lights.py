@@ -16,7 +16,7 @@ MAX_PIXELS = 506
 BRIGHTNESS = 0.10  # 10%
 
 # How long (in seconds) should we shine the LEDs?
-SHINE_TIMER = 3600  # 1 hour
+SHINE_TIMER = 300  # 5 minutes
 
 # What GPIO pin is associated with a condition?
 DARK_INDICATOR_PIN = 21  # Physical pin 40
@@ -42,12 +42,13 @@ while True:
     try:
         if GPIO.input(DARK_INDICATOR_PIN):
             pixels.fill(WHITE)
-            # Put this here because there tends to be a flickering effect at twilight and sunrise.
-            # So, make the strip stay on continuously for a time while the light is growing or
-            # receding
-            time.sleep(SHINE_TIMER)
+
         else:
             pixels.fill(OFF)
+        # Put this here because there tends to be a flickering effect at twilight and sunrise.
+        # So, make the strip stay on (or off) continuously for a time while the light is
+        # growing or receding
+        time.sleep(SHINE_TIMER)
     except KeyboardInterrupt:
         pixels.fill(OFF)
         exit()
