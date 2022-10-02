@@ -42,12 +42,13 @@ while True:
     try:
         if GPIO.input(DARK_INDICATOR_PIN):
             pixels.fill(WHITE)
-
         else:
             pixels.fill(OFF)
-        # Put this here because there tends to be a flickering effect at twilight and sunrise.
-        # So, make the strip stay on (or off) continuously for a time while the light is
-        # growing or receding
+
+        # At twilight and sunrise, there is a very short (1 or 2 minute) period when the light
+        # sensor cannot decide if it is light or dark.  This tends to cause the strip to flicker.
+        # To avoid this, set a short timer to make the strip stay on (or off) for a period long
+        # enough to avoid confusing the light sensor when the sun rises or sets.
         time.sleep(SHINE_TIMER)
     except KeyboardInterrupt:
         pixels.fill(OFF)
