@@ -25,6 +25,7 @@ DARK_INDICATOR_PIN = 21  # Physical pin 40
 LED_STRIP_OUTPUT_PIN = board.D18  # Physical pin 12
 
 # Colors
+ORANGE =(253, 166, 0)
 WHITE = (255, 255, 255)
 OFF = (0, 0, 0)
 
@@ -41,7 +42,7 @@ GPIO.setup(DARK_INDICATOR_PIN, GPIO.IN)
 while True:
     try:
         if GPIO.input(DARK_INDICATOR_PIN):
-            pixels.fill(WHITE)
+            pixels.fill(ORANGE)
         else:
             pixels.fill(OFF)
 
